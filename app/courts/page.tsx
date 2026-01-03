@@ -4,6 +4,7 @@ export default function CourtsPage() {
       <h1 style={{ fontSize: 28, fontWeight: 700, marginBottom: 8 }}>
         Padelplätze in Deutschland
       </h1>
+
       <p style={{ marginBottom: 16, lineHeight: 1.5 }}>
         Hier findest du Padelplätze deutschlandweit. Die Platzsuche wird über Padelfinder eingebettet.
         Die Platzbuchung erfolgt nicht bei uns – bitte kümmert euch selbst um die Reservierung.
@@ -53,8 +54,9 @@ export default function CourtsPage() {
       </div>
 
       <p style={{ marginTop: 12, fontSize: 12, color: "#666" }}>
-        Quelle: Padelfinder (eingebettet per iFrame). :contentReference[oaicite:1]{index=1}
+        Quelle: Padelfinder (eingebettet per iFrame).
       </p>
     </main>
   );
 }
+
